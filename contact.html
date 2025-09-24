@@ -3,10 +3,12 @@
 <head>
     <meta name="viewport" content="width=device-width, initital-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <script src="https://kit.fontawesome.com/a6ec60b11f.js" crossorigin="anonymous"></script>
     <meta name="author" content="Maia-Marit Riit"/>
     <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" media="screen and (max-width: 500px)" href="css/mobile.css"/>
     <meta charset="UTF-8"/>
-    <title>Hotell, Kontakt</title>
+    <title>Hotell | Kontakt</title>
 </head>
 <body>
         <main>
@@ -21,34 +23,53 @@
                             </ul>
                         </div>
                     </nav>
-                    <h1>riit.com</h1>
-                    <p>Õpime veebitehnoloogiat</p>
                 </header>
-
-                <nav>
-                    Avalhet, Teenused, Kontakt
-                </nav>
-                <section>
-                    <h2>Exercitation Ipsum</h2>
-                    <article>
-                        <h3>Lorem Ipsum</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </article>
-                    <article>
-                        <h3>Lorem Ipsum</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </article>
-                    <article>
-                        <h3>Lorem Ipsum</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </article>
+                <!--contact form-->
+                <section id="contact-form" class="py-30">
+                    <div class="container">
+                        <h1>Võta <span class="text-primary">Ühendust</span> Meiega</h1>
+                        <p>Palun täida all olev vorm</p>
+                        <form action="">
+                            <div class="form-group">
+                                <label for="name">Nimi</label>
+                                <input type="text" id="name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Sõnum</label>
+                                <textarea id="message"></textarea>
+                            </div>
+                            <button type="submit" class="btn">Saada</button>
+                        </form>
+                    </div>
                 </section>
-                <aside>
-                    <p>Siia banner</p>
-                </aside>
-
+                <!--contact info-->
+                <section id="contact-info" class="bg-dark">
+                        <div class="container">
+                            <div class="box bg-dark">
+                                <i class="fa-solid fa-hotel fa-3x"></i>
+                                <h3>Aadress</h3>
+                                <p>Kopli 1A, Tartu</p>
+                            </div>
+                            <div class="box bg-dark">
+                                <i class="fa-solid fa-phone fa-3x"></i>
+                                <h3>Telefon</h3>
+                                <p>5555 5555</p>
+                            </div>
+                            <div class="box bg-dark">
+                                <i class="fa-solid fa-envelope fa-3x"></i>
+                                <h3>Email</h3>
+                                <p>info@kht.ee</p>
+                            </div>
+                        </div>
+                </section>
+                <div class="clear"></div>
+                
                 <footer>
-                    <p>riit.com; Tõrva, Nooruse 10; +372 56865083</p>
+                    <p>KHT &copy;2021, Kõik Õigused On Kaitstud</p>
                 </footer>
         </main>
     

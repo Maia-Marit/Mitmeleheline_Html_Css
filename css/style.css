@@ -16,7 +16,7 @@ a {
     color: #333;
 }
 
-h1 {
+h1, h2, h3{
     padding-bottom: 20px;
 }
 
@@ -45,6 +45,31 @@ h1 {
     background: #f7c08a;
     color: #333;
 }
+
+.btn-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-dark {
+    background: #333;
+    color: #fff;
+}
+
+.btn-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-primary {
+    background: #f7c08a;
+    color: #333;
+}
+
+.py-30 {
+    padding: 30px 0;
+}
+
 
 /*navbar*/
 #navbar{
@@ -80,7 +105,7 @@ h1 {
 }
 /*showcase*/
 #showcase {
-    background: url('../img/showcase.jpg');
+    background: url('../images/showcase.jpg');
     height: 600px
 }
 #showcase .showcase-content {
@@ -95,4 +120,133 @@ h1 {
 #showcase .showcase-content p {
     padding-bottom: 20px;
     line-height: 1.7em;
+}
+
+/*info section*/
+#info {
+    height: 400px;
+}
+
+#info .info-content {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+
+#info .info-content p {
+    padding-bottom: 30px;
+}
+
+#info .info-img {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+    background: url('../images/photo-1.jpg') no-repeat;
+}
+
+/*features*/
+#features .box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+
+#features .box i {
+    margin-bottom: 10px;
+    }
+
+/*footer*/
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #444;
+    color: #fff;
+    }
+/*clear*/
+.clear {
+    clear: both;
+}
+/*about*/
+#about-info .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .info-right img {
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 50%;
+}
+
+/*testimonials*/
+#testimonials {
+    height: 600px;
+    background: url("../images/test-bg.jpg") no-repeat center center/cover;
+}
+#testimonials h2 {
+    text-align: center;
+    color: #fff;
+}
+
+#testimonials .testimonial {
+    margin-bottom: 40px;
+    border-radius: 5px;
+    padding: 20px;
+    opacity: 0.9;
+}
+
+#testimonials .testimonial img {
+    width: 70px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50px;
+}
+
+/*contact*/
+#contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+#contact-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form .form-group input,
+#contact-form .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+#contact-form .form-group textarea {
+    height: 200px;
+}
+
+#contact-form .form-group input:focus,
+#contact-form .form-group textarea:focus {
+    outline: none;
+    border-color: #f7c08a;
+}
+#contact-info .box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+
+#contact-info .box i {
+    margin-bottom: 10px;
 }
