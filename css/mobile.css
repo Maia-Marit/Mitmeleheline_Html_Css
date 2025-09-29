@@ -57,3 +57,14 @@
     width: 100%;
     border-bottom: #444 dotted 1px;
 }
+
+/*mobile-adjustments*/
+@media (max-width: 500px) {
+    #showcase .showcase-content h1 {
+        font-size: 30px;
+    
+    }
+    #showcase .showcase-content p {
+        font-size: 18px;
+    }
+}
