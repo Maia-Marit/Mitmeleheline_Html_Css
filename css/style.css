@@ -105,7 +105,7 @@ h1, h2, h3{
 }
 /*showcase*/
 #showcase {
-    background: url('../images/showcase.jpg');
+    background: url('../images/showcase.jpg') no-repeat center center/cover;
     height: 600px
 }
 #showcase .showcase-content {
